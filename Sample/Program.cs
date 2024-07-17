@@ -2,7 +2,7 @@
 Console.WriteLine("Hello, C#");
 Console.WriteLine("Goodbye, C#"); */
 
-// 変数の宣言
+/* 変数の宣言
 int money; // 所持金を代入する変数
 string name; // 名前を代入する変数
 
@@ -34,3 +34,22 @@ Console.WriteLine(answer);
 //剰余
 answer = 21 % 5;
 Console.WriteLine(answer);
+
+// 練習問題 3-1
+int answer2;
+answer2 = 1 + 2 + 3 + 4 + 5;
+Console.WriteLine(answer2);
+
+// 練習問題 3-2
+int answer3;
+answer3 = 30 % 7;
+Console.WriteLine(answer3); */
+
+// 変数の初期化
+int money = 15000; // 現在の所持金
+int salary = 1000; // 時給
+int hour = 5; // 働いた時間
+
+// 現在の所持金の合計を計算して表示
+int sum = money + salary * hour;
+Console.WriteLine(sum);
