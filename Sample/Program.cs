@@ -45,11 +45,23 @@ int answer3;
 answer3 = 30 % 7;
 Console.WriteLine(answer3); */
 
-// 変数の初期化
+/* 変数の初期化
 int money = 15000; // 現在の所持金
 int salary = 1000; // 時給
 int hour = 5; // 働いた時間
 
 // 現在の所持金の合計を計算して表示
+int sum = money + salary * hour;
+Console.WriteLine(sum);
+
+// 練習問題 3-3
+int sum2 = money + (salary + 150) * hour;
+Console.Write(sum2); */
+
+// 練習問題 3-4
+int money = 5000;
+int salary = 800;
+int hour = 2;
+
 int sum = money + salary * hour;
 Console.WriteLine(sum);
