@@ -101,11 +101,19 @@ a /= 4;
 
 Console.WriteLine(a); */
 
-int playerPosX = 5;
+/* int playerPosX = 10;
 int enemyPosX = 10;
 
 // プレイヤーと敵の位置が等しい場合は敵と遭遇
 if (playerPosX == enemyPosX)
 {
     Console.WriteLine("敵と遭遇");
+} */
+
+// 練習問題 3-7
+int num = 8;
+
+if (num >= 3)
+{
+    Console.WriteLine("勝ち");
 }
