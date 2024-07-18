@@ -81,7 +81,7 @@ int b = 30;
 float average = a * 1.0f / b;
 Console.WriteLine(average); */
 
-int life = 1;
+/* int life = 1;
 
 // ライフを「3」だけ増やす
 //life = life + 3;
@@ -90,4 +90,13 @@ int life = 1;
 // ライフを「1」だけ増やす
 life++;
 
-Console.WriteLine(life);
+Console.WriteLine(life); */
+
+// 練習問題 3-6
+int a = 10;
+a--;
+a--;
+
+a /= 4;
+
+Console.WriteLine(a);
