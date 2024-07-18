@@ -75,8 +75,14 @@ int history = 95; // 歴史の点数
 float average = (math + english + history) / 3.0f;
 Console.WriteLine("平均は" + average + "点"); */
 
-int a = 45;
+/* int a = 45;
 int b = 30;
 
 float average = a * 1.0f / b;
-Console.WriteLine(average);
+Console.WriteLine(average); */
+
+int life = 1;
+
+// ライフを「3」だけ増やす
+life = life + 3;
+Console.WriteLine(life);
