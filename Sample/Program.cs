@@ -92,11 +92,20 @@ life++;
 
 Console.WriteLine(life); */
 
-// 練習問題 3-6
+/* 練習問題 3-6
 int a = 10;
 a--;
 a--;
 
 a /= 4;
 
-Console.WriteLine(a);
+Console.WriteLine(a); */
+
+int playerPosX = 5;
+int enemyPosX = 10;
+
+// プレイヤーと敵の位置が等しい場合は敵と遭遇
+if (playerPosX == enemyPosX)
+{
+    Console.WriteLine("敵と遭遇");
+}
