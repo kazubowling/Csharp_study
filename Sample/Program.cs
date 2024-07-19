@@ -156,3 +156,16 @@ if ((player1PosX == 2 && player2PosX == 6) || (player1PosX == 6 && player2PosX =
 {
     Console.WriteLine("仕掛け解除");
 } */
+
+int playerPosY = 3;
+
+// プレイヤが地上(高さ0以上の位置)にいる場合は走る
+// そうでなければ水中にいるとみなして泳ぐ
+if (playerPosY >= 0)
+{
+    Console.WriteLine("走る！");
+}
+else
+{
+    Console.WriteLine("泳ぐ！");
+}
