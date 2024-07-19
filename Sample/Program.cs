@@ -170,7 +170,7 @@ else
     Console.WriteLine("泳ぐ！");
 } */
 
-// 練習問題 3-10
+/* 練習問題 3-10
 int num = 5;
 if (num >= 3)
 {
@@ -179,4 +179,27 @@ if (num >= 3)
 else
 {
     Console.WriteLine("負け");
+} */
+
+int hp = 100;
+int mapType = 2;
+
+// 地形の種類によってHPの値を増減する
+if (mapType == 1)
+{
+    hp += 10;
 }
+else if (mapType == 2)
+{
+    hp -= 5;
+}
+else if (mapType == 3)
+{
+    hp = 0;
+}
+else
+{
+    Console.WriteLine("HPの変化なし");
+}
+
+Console.WriteLine("HP = " + hp);
