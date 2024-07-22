@@ -210,8 +210,27 @@ for (int i = 0; i < 5; i++)
     Console.WriteLine("攻撃");
 } */
 
-// 練習問題 3-11
+/* 練習問題 3-11
 for (int i = 0; i < 3; i++)
 {
     Console.WriteLine("逃走！");
-}
+} */
+
+/* 参加者を点呼する
+for (int i = 1; i < 4; i++)
+{
+    Console.WriteLine(i + "番！");
+} */
+
+/* 練習問題 3-13
+for (int i = 2; i < 6; i++)
+{
+    Console.WriteLine(i);
+} */
+
+/* 練習問題 3-14
+for (int i = 0; i < 5; i += 2)
+{
+    Console.WriteLine(i);
+} */
+
