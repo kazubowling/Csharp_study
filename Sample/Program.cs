@@ -181,7 +181,7 @@ else
     Console.WriteLine("負け");
 } */
 
-int hp = 100;
+/* int hp = 100;
 int mapType = 4;
 
 // 地形の種類によってHPの値を増減する
@@ -202,4 +202,10 @@ else
     Console.WriteLine("HPの変化なし");
 }
 
-Console.WriteLine("HP = " + hp);
+Console.WriteLine("HP = " + hp); */
+
+// 攻撃を5回繰り返す
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("攻撃");
+}
