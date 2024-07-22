@@ -204,8 +204,14 @@ else
 
 Console.WriteLine("HP = " + hp); */
 
-// 攻撃を5回繰り返す
+/* 攻撃を5回繰り返す
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine("攻撃");
+} */
+
+// 練習問題 3-11
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine("逃走！");
 }
