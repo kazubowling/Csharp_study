@@ -182,7 +182,7 @@ else
 } */
 
 int hp = 100;
-int mapType = 2;
+int mapType = 4;
 
 // 地形の種類によってHPの値を増減する
 if (mapType == 1)
