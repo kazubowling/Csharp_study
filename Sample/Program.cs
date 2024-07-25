@@ -270,7 +270,7 @@ while (i > 100)
 }
 Console.WriteLine(count); */
 
-int playerPosX = 5;
+/* int playerPosX = 5;
 int missilePosX = 15;
 
 // 常にループする
@@ -285,4 +285,19 @@ while (true)
     Console.WriteLine("missile at " + missilePosX);
     missilePosX--;
 }
-Console.WriteLine("HIT");
+Console.WriteLine("HIT"); */
+
+// 練習問題 3-17
+int sum = 0;
+int count = 1;
+while (true)
+{
+    sum += count;
+    Console.WriteLine(sum);
+
+    if (sum >= 500)
+    {
+        break;
+    }    
+    count++;
+}
