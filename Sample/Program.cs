@@ -241,8 +241,20 @@ for (int i = 3; i > 0; i--)
 }
 Console.WriteLine("スタート"); */
 
-// 練習問題 3-15
+/* 練習問題 3-15
 for (int i = 10; i >= 0; i--)
 {
     Console.WriteLine(i);
+} */
+
+int playerPosX = 5;
+int missilePosX = 15;
+
+// プレイヤの位置とミサイルの位置が等しくなければミサイルの移動を繰り返す
+while (playerPosX != missilePosX)
+{
+    Console.WriteLine("missile at " + missilePosX);
+    missilePosX--; // ミサイルを左に動かす
 }
+
+Console.WriteLine("HIT");
