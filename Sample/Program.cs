@@ -247,10 +247,10 @@ for (int i = 10; i >= 0; i--)
     Console.WriteLine(i);
 } */
 
-int playerPosX = 5;
+/* int playerPosX = 5;
 int missilePosX = 15;
 
-/* プレイヤの位置とミサイルの位置が等しくなければミサイルの移動を繰り返す
+ プレイヤの位置とミサイルの位置が等しくなければミサイルの移動を繰り返す
 while (playerPosX != missilePosX)
 {
     Console.WriteLine("missile at " + missilePosX);
@@ -259,7 +259,7 @@ while (playerPosX != missilePosX)
 
 Console.WriteLine("HIT"); */
 
-// 練習問題 3-16
+/* 練習問題 3-16
 int i = 10000;
 int count = 0;
 
@@ -268,4 +268,21 @@ while (i > 100)
     i /= 2;
     count++;
 }
-Console.WriteLine(count);
+Console.WriteLine(count); */
+
+int playerPosX = 5;
+int missilePosX = 15;
+
+// 常にループする
+while (true)
+{
+    // プレイヤとミサイルが衝突したらwhile文を抜ける
+    if (playerPosX == missilePosX)
+    {
+        break;
+    }
+
+    Console.WriteLine("missile at " + missilePosX);
+    missilePosX--;
+}
+Console.WriteLine("HIT");
