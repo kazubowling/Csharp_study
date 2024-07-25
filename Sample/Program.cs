@@ -250,11 +250,22 @@ for (int i = 10; i >= 0; i--)
 int playerPosX = 5;
 int missilePosX = 15;
 
-// プレイヤの位置とミサイルの位置が等しくなければミサイルの移動を繰り返す
+/* プレイヤの位置とミサイルの位置が等しくなければミサイルの移動を繰り返す
 while (playerPosX != missilePosX)
 {
     Console.WriteLine("missile at " + missilePosX);
     missilePosX--; // ミサイルを左に動かす
 }
 
-Console.WriteLine("HIT");
+Console.WriteLine("HIT"); */
+
+// 練習問題 3-16
+int i = 10000;
+int count = 0;
+
+while (i > 100)
+{
+    i /= 2;
+    count++;
+}
+Console.WriteLine(count);
