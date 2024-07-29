@@ -353,11 +353,19 @@ for (int i = 0; i < weights.Length; i++)
     }
 } */
 
-// いらっしゃいませ！と表示するメソッドを定義
+/* いらっしゃいませ！と表示するメソッドを定義
 void Shop()
 {
     Console.WriteLine("いらっしゃいませ！");
 }
 
 // Shopメソッドを呼び出す
-Shop();
+Shop(); */
+
+// 練習問題 3-19
+Thankyou();
+
+void Thankyou()
+{
+    Console.WriteLine("ありがとうございました！");
+}
