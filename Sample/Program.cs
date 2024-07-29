@@ -320,11 +320,26 @@ for (int i = 0; i < 7; i++)
     Console.WriteLine(weights[i]);
 } */
 
-// 配列を初期化する
+/* 配列を初期化する
 float[] weights = { 41.2f, 42.5f, 44.9f, 43.2f, 45.1f, 43.2f, 42.7f, 41.5f, 41.4f, 41.9f };
 
 // 「変数名.Length」を使って全要素にアクセスする
 for (int i = 0; i < weights.Length; i++)
 {
     Console.WriteLine(weights[i]);
+} */
+
+float[] weights = { 41.2f, 42.5f, 44.9f, 43.2f, 
+    45.1f, 43.2f, 42.7f };
+
+float sum = 0.0f; // 1週間の体重の合計を入れる変数
+
+// 1週間の体重の合計値を求める
+for (int i = 0; i < weights.Length; i++)
+{
+    sum += weights[i];
 }
+
+// 1週間の体重の平均値を求める
+float average = sum / weights.Length;
+Console.WriteLine("平均値は" + average + "です");
