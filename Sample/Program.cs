@@ -332,7 +332,7 @@ for (int i = 0; i < weights.Length; i++)
 float[] weights = { 41.2f, 42.5f, 44.9f, 43.2f, 
     45.1f, 43.2f, 42.7f };
 
-float sum = 0.0f; // 1週間の体重の合計を入れる変数
+/* float sum = 0.0f; // 1週間の体重の合計を入れる変数
 
 // 1週間の体重の合計値を求める
 for (int i = 0; i < weights.Length; i++)
@@ -342,4 +342,13 @@ for (int i = 0; i < weights.Length; i++)
 
 // 1週間の体重の平均値を求める
 float average = sum / weights.Length;
-Console.WriteLine("平均値は" + average + "です");
+Console.WriteLine("平均値は" + average + "です"); */
+
+// 練習問題  3-18
+for (int i = 0; i < weights.Length; i++)
+{
+    if (weights[i] < 43.0f)
+    {
+        Console.WriteLine(weights[i]);
+    }
+}
