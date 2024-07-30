@@ -362,10 +362,11 @@ void Shop()
 // Shopメソッドを呼び出す
 Shop(); */
 
-// 練習問題 3-19
+/* 練習問題 3-19
 Thankyou();
 
 void Thankyou()
 {
     Console.WriteLine("ありがとうございました！");
-}
+} */
+
