@@ -370,7 +370,7 @@ void Thankyou()
     Console.WriteLine("ありがとうございました！");
 } */
 
-// 引数に商品名を受け取り、
+/* 引数に商品名を受け取り、
 // 商品名に応じた値段を表示するメソッド
 void Shop(string itemName)
 {
@@ -390,4 +390,19 @@ void Shop(string itemName)
     }
 }
 
-Shop("薬草");
+Shop("薬草"); */
+
+// 練習問題 3-20
+void ShowEvenOrOdd (int num)
+{
+    if ((num % 2) == 0)
+    {
+        Console.WriteLine("偶数です");
+    }
+    else
+    {
+        Console.WriteLine("奇数です");
+    }
+}
+
+ShowEvenOrOdd(2);
