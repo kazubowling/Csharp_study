@@ -407,7 +407,7 @@ void ShowEvenOrOdd (int num)
 
 ShowEvenOrOdd(2); */
 
-// 商品名を引数に取り、
+/* 商品名を引数に取り、
 // 対応する商品の値段を返すメソッド
 int Shop (string itemName)
 {
@@ -444,4 +444,15 @@ money -= price;
 Console.WriteLine("所持金は" + money + "円です");
 price = Shop("万能薬");
 money -= price;
-Console.WriteLine("所持機は" + money + "円です");
+Console.WriteLine("所持機は" + money + "円です"); */
+
+// 練習問題 3-22
+float CalcAverage(int num1, int num2, int num3)
+{
+    float average;
+    average = (num1 + num2 + num3) / 3.0f;
+    return average;
+}
+
+float answer = CalcAverage(2, 2, 2);
+Console.WriteLine(answer);
